@@ -659,6 +659,7 @@ GameObject:
   - component: {fileID: 286168264}
   - component: {fileID: 286168263}
   - component: {fileID: 286168262}
+  - component: {fileID: 286168266}
   m_Layer: 0
   m_Name: GameArrangement
   m_TagString: Untagged
@@ -727,6 +728,19 @@ Transform:
   m_Father: {fileID: 1243876314}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &286168266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286168261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12be5bb1d2a165443a3e49f00834381b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCube: {fileID: 851867097}
 --- !u!1 &297066477
 GameObject:
   m_ObjectHideFlags: 0
@@ -911,13 +925,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 470756716}
-  m_LocalRotation: {x: 0.4223908, y: -0.029732661, z: 0.013864567, w: 0.90582}
+  m_LocalRotation: {x: 0.3975083, y: -0.30774483, z: 0.14350376, w: 0.8524594}
   m_LocalPosition: {x: 0, y: 20, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1243876314}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 50, y: -3.76, z: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -39.7, z: 0}
 --- !u!108 &470756718
 Light:
   m_ObjectHideFlags: 0
@@ -930,7 +944,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.29
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208

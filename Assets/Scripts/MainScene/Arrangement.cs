@@ -53,5 +53,8 @@ public class Arrangement : MonoBehaviour
     {
         yield return new WaitForSeconds(mainCube.GetComponent<Animation>().clip.length + 1f);
         startBlockResize_anim.Play();
+
+        //Add Rigitbody component
+        mainCube.AddComponent<Rigidbody>();
     }
 }

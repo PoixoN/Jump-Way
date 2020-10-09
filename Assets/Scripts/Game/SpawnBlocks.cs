@@ -12,9 +12,9 @@ public class SpawnBlocks : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        blockPos = new Vector3(Random.Range(0.8f, 1.6f), Random.Range(-2.8f, 0.9f));
+        blockPos = new Vector3(Random.Range(0.8f, 1.6f), Random.Range(-2.8f, 0.7f), -1f);
         blockInst = Instantiate(block, new Vector3(3.7f, -6f), Quaternion.identity);
-        blockInst.transform.localScale = new Vector3(Random.Range(1f, 2f), blockInst.transform.localScale.y, blockInst.transform.localScale.z);
+        blockInst.transform.localScale = new Vector3(Random.Range(1f, 1.5f), blockInst.transform.localScale.y, blockInst.transform.localScale.z);
     }
 
     private void Update()

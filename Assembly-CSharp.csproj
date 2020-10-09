@@ -67,6 +67,7 @@
     <Compile Include="Assets\Download Assets\Digicrafts\ColorBox\Examples\demo\demo.cs" />
     <Compile Include="Assets\Download Assets\Digicrafts\ColorBox\Examples\demo_animation\AnimatedGradient.cs" />
     <Compile Include="Assets\Download Assets\Digicrafts\ColorBox\Scripts\ColorBoxShaderHelper.cs" />
+    <Compile Include="Assets\Scripts\Game\CubeJump.cs" />
     <Compile Include="Assets\Scripts\Game\SpawnBlocks.cs" />
     <Compile Include="Assets\Scripts\MainScene\Arrangement.cs" />
     <Compile Include="Assets\Scripts\MainScene\Buttons.cs" />
